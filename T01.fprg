@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="JOICE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 09:25:21 PM"/>
+        <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMDktMDQ7MDg6MjE6NTUgUE07MjMwNA=="/>
+        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMDktMDQ7MDk6MjU6MjEgUE07MjsyNDEx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <declare name="Judul" type="String" array="False" size=""/>
+            <input variable="Judul"/>
+            <declare name="Penulis" type="String" array="False" size=""/>
+            <input variable="Penulis"/>
+            <declare name="Tahunterbit" type="Integer" array="False" size=""/>
+            <input variable="Tahunterbit"/>
+            <declare name="Penerbit" type="String" array="False" size=""/>
+            <input variable="Penerbit"/>
+            <output expression="ISBN Judul" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
